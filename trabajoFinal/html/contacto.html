@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="../estilos/style.css">
+        <title>Pagina web</title>
+    </head>
+    <body background="../imagenes/image.jpg">
+    <h1>Contacto <img src="../imagenes/logo.png" alt="logo" width="80" height="80">
+    </h1>
+    <nav class="navegacion">
+            <a href="index.html">Inicio</a>
+            <a href="servicios.html">Servicios</a>
+            <a href="trabajos.html">Nuestra Propuesta</a>
+            <a href="">Contacto</a>
+    </nav>
+    <div id="contenedor">
+      <div id="bloqueIzquierdo">
+        <form>
+        <p id="tituloFormulario">FORMULARIO DE CONTACTO</p><br>
+          <label for="nombreCliente">TU NOMBRE:</label><br>
+          <input type="text" id="nombre" value=""><br>
+          <label for="pais">PAÍS: </label><br>
+          <input type="text" id="pais" value=""><br>
+          <label for="provincia">PROVINCIA: </label><br>
+              <select id="provincia" name="provincia" style="width: 550px">
+                <option>Selecciona una opción</option>
+                <option>Buenos Aires</option>
+                <option>Ciudad Autónoma de Buenos Aires</option>
+                <option>Catamarca</option>
+                <option>Chaco</option>
+                <option>Chubut</option>
+                <option>Córdoba</option>
+                <option>Corrientes</option>
+                <option>Entre Ríos</option>
+                <option>Formosa</option>
+                <option>Jujuy</option>
+                <option>La Pampa</option>
+                <option>La Rioja</option>
+                <option>Mendoza</option>
+                <option>Misiones</option>
+                <option>Neuquén</option>
+                <option>Rio Negro</option>
+                <option>Salta</option>
+                <option>San Juan</option>
+                <option>San Luis</option>
+                <option>Santa Cruz</option>
+                <option>Santa Fé</option>
+                <option>Santiago del Estero</option>
+                <option>Tierra del Fuego</option>
+                <option>Tucumán</option>
+              </select><br>
+          <label for="email">EMAIL:</label><br>
+          <input type="text" id="email" value=""><br>
+          <label for="numeroTelefono">TELEFONO:</label><br>
+          <input type="number" id="numeroTelefono"><br>
+          <label for="asunto">ASUNTO:</label><br>
+          <textarea id="asunto" rows="10" cols="72"></textarea><br>
+        </form>
+        <button id="open">Enviar</button>
+      </div>
+    </div>
+        <div class="modal-container" id="modal_container">
+          <div class="modal">
+            <p>Su solicitud fue enviada, <br> a la brevedad nos contactaremos con usted.</p>
+            <button id="close">cerrar</button>
+          </div>
+        </div>
+      <div id="bloqueDerecho">
+        <table class="contacto">
+        <tr>
+            <td>
+              <img src="../imagenes/marcador-de-posicion.png" width="20px">
+            Dirección</td>
+            <td>
+              <img src="../imagenes/telefono-inteligente.png" width="20px">
+            Teléfono</td>
+            <td>
+              <img src="../imagenes/whatsapp.png" width="20px">
+              Whatsapp</td>
+            <td>
+              <img src="../imagenes/email.png" width="20px">
+            Email</td>
+          </tr>
+        <tr>
+            <td>Av. Colón 2325 - Mar del Plata</td>
+            <td>0223 476-1602</td>
+            <td>223 1011501</td>
+            <td>info@homedeco.net</td>
+          </tr>
+        </table>
+      </div>
+    <script type="text/javascript" src="../JavaScript/archivo.js"></script>
+    </body>
+</html>
